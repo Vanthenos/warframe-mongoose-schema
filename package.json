@@ -1,0 +1,29 @@
+{
+  "name": "warframe-mongoose-schema",
+  "version": "1.0.0",
+  "description": "Mongoose Schema Models for Warframe Items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanthenos/warframe-mongoose-schema.git"
+  },
+  "keywords": [
+    "mongoose",
+    "warframe",
+    "schema"
+  ],
+  "author": "Vanthenos, Vanthenos#9835",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vanthenos/warframe-mongoose-schema/issues"
+  },
+  "homepage": "https://github.com/Vanthenos/warframe-mongoose-schema#readme",
+
+  "dependencies": {
+    "mongoose": "^5.7.9"
+  },
+  "devDependencies": {}
+}
