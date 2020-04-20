@@ -21,7 +21,7 @@ const WarframeSchema = new Schema({
   power: Number,
   codexSecret: Boolean,
   passiveDescription: String,
-  abilities: Object,
+  abilities: Array,
   locale: String,
 }, {
   strict: false,
