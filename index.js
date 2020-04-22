@@ -17,6 +17,7 @@ require('./src/models/recipeSchema');
 require('./src/models/regionSchema');
 require('./src/models/releasedateSchema');
 require('./src/models/relicSchema');
+require('./src/models/RelicArcaneSchema');
 require('./src/models/resourceSchema');
 require('./src/models/rivenpriceSchema');
 require('./src/models/sentinelSchema');
@@ -41,6 +42,7 @@ const Recipe = mongoose.model("Recipe");
 const Region = mongoose.model("Region");
 const ReleaseDate = mongoose.model("ReleaseDate");
 const Relic = mongoose.model("Relic");
+const RelicArcane = mongoose.model("RelicArcane");
 const Resource = mongoose.model("Resource");
 const RivenPrice = mongoose.model("RivenPrice");
 const Sentinel = mongoose.model("Sentinel");
@@ -83,6 +85,8 @@ exports.Models = {
   releasedates: ReleaseDate,
   relic: Relic,
   relics: Relic,
+  relicarcane: RelicArcane,
+  relicarcanes: RelicArcane,
   resource: Resource,
   resources: Resource,
   rivenprice: RivenPrice,
