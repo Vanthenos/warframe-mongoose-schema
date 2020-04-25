@@ -22,6 +22,7 @@ require('./src/models/resourceSchema');
 require('./src/models/rivenpriceSchema');
 require('./src/models/sentinelSchema');
 require('./src/models/sortierewardSchema');
+require('./src/models/updateSchema');
 require('./src/models/upgradeSchema');
 require('./src/models/warframeSchema');
 require('./src/models/weaponSchema');
@@ -47,6 +48,7 @@ const Resource = mongoose.model("Resource");
 const RivenPrice = mongoose.model("RivenPrice");
 const Sentinel = mongoose.model("Sentinel");
 const SortieReward = mongoose.model("SortieReward");
+const Update = mongoose.model("Update");
 const Upgrade = mongoose.model("Upgrade");
 const Warframe = mongoose.model("Warframe");
 const Weapon = mongoose.model("Weapon");
@@ -95,6 +97,8 @@ exports.Models = {
   sentinels: Sentinel,
   sortiereward: SortieReward,
   sortierewards: SortieReward,
+  update: Update,
+  updates: Update,
   upgrade: Upgrade,
   upgrades: Upgrade,
   warframe: Warframe,
