@@ -12,6 +12,7 @@ require('./src/models/gearSchema');
 require('./src/models/keySchema');
 require('./src/models/manifestSchema');
 require('./src/models/partnerSchema');
+require('./src/models/promocodeSchema');
 require('./src/models/poeurlSchema');
 require('./src/models/recipeSchema');
 require('./src/models/regionSchema');
