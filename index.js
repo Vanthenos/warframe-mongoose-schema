@@ -38,6 +38,7 @@ const Gear = mongoose.model("Gear");
 const Key = mongoose.model("Key");
 const Manifest = mongoose.model("Manifest");
 const Partner = mongoose.model("Partner");
+const Promocode = mongoose.model("Promocode");
 const PoeUrl = mongoose.model("PoeUrl");
 const Recipe = mongoose.model("Recipe");
 const Region = mongoose.model("Region");
@@ -79,6 +80,8 @@ exports.Models = {
   partners: Partner,
   poeurl: PoeUrl,
   poeurls: PoeUrl,
+  promocode: Promocode,
+  promocodes: Promocode,
   recipe: Recipe,
   recipes: Recipe,
   region: Region,
