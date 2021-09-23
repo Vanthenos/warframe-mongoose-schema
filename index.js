@@ -1,7 +1,6 @@
 'use strict'
 const mongoose = require('mongoose');
 
-
 require('./src/models/arcaneSchema');
 require('./src/models/buildSchema');
 require('./src/models/customSchema');
