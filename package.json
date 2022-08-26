@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Vanthenos/warframe-mongoose-schema#readme",
   "dependencies": {
-    "mongoose": "^6.0.7"
+    "mongoose": "^6.4.6"
   }
 }
